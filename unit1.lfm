@@ -1,12 +1,12 @@
 object Form1: TForm1
   AnchorSideTop.Side = asrCenter
   Left = 431
-  Height = 240
+  Height = 346
   Top = 34
-  Width = 320
+  Width = 708
   Caption = 'Form1'
-  ClientHeight = 240
-  ClientWidth = 320
+  ClientHeight = 346
+  ClientWidth = 708
   DesignTimePPI = 120
   LCLVersion = '4.99.0.0'
   OnDblClick = FormDblClick
@@ -15,9 +15,9 @@ object Form1: TForm1
     AnchorSideLeft.Side = asrCenter
     AnchorSideTop.Control = Owner
     AnchorSideTop.Side = asrCenter
-    Left = 138
+    Left = 332
     Height = 20
-    Top = 110
+    Top = 163
     Width = 44
     Caption = 'Label1'
   end
