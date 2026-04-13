@@ -1,0 +1,25 @@
+object Form2: TForm2
+  Left = 352
+  Height = 274
+  Top = 34
+  Width = 369
+  Caption = 'Form2'
+  ClientHeight = 274
+  ClientWidth = 369
+  DesignTimePPI = 120
+  LCLVersion = '4.99.0.0'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    Left = 164
+    Height = 20
+    Top = 127
+    Width = 41
+    Caption = 'label1'
+  end
+end
